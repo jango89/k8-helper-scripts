@@ -7,5 +7,5 @@ Run  `source .bash or source .zshrc`.
 
 #Usage#
 
-#./kl.sh {servicename} {last n lines from logs} {search by this word in logs}. 
-#./kl.sh {servicename} 0 {search by this word in whole logs}.  
+#kl {servicename} {last n lines from logs} {search by this word in logs}.   
+#kl {servicename} 0 {search by this word in whole logs}.    
