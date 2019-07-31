@@ -1,5 +1,11 @@
-Prints logs in console
+##Prints logs in console
 
-###Usage### 
-#./kl.sh {servicename} {last n lines from logs} {search by this word in logs}   
-#./kl.sh {servicename} 0 {search by this word in whole logs} .  
+#How to make it effective using bash#
+
+Add `alias kl="{path to the script}` to either .bash or .zshrc.   
+Run  `source .bash or source .zshrc`.
+
+#Usage#
+
+#./kl.sh {servicename} {last n lines from logs} {search by this word in logs}. 
+#./kl.sh {servicename} 0 {search by this word in whole logs}.  
