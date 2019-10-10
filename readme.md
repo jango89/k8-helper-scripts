@@ -19,7 +19,7 @@ Run  `source .bash or source .zshrc`.
 
 # Usage#
 
-#klf {deployment-name} {environment}
+#klf {deployment-name} {environment} .  
 #klf {deployment-name}
 
 
