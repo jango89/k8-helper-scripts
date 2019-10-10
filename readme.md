@@ -4,6 +4,7 @@ Add `alias kl="{path to the script}` to either .bash or .zshrc.
 Add `alias kc="{path to the script}` to either .bash or .zshrc.   
 Add `alias kd="{path to the script}` to either .bash or .zshrc.   
 Add `alias ki="{path to the script}` to either .bash or .zshrc.   
+Add `alias klf="{path to the script}` to either .bash or .zshrc.
 Run  `source .bash or source .zshrc`.
 
 
@@ -13,6 +14,14 @@ Run  `source .bash or source .zshrc`.
 
 #kl {servicename} {last n lines from logs} {search by this word in logs}.   
 #kl {servicename} 0 {search by this word in whole logs}.    
+
+## Prints logs live from pod
+
+# Usage#
+
+#klf {deployment-name} {environment}
+#klf {deployment-name}
+
 
 ## Prints ingress details in console
 
