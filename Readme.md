@@ -12,22 +12,22 @@ Run  `source .bash or source .zshrc`.
 
 ### Switch contexts in k8
 
-#kc {environment}
+\# kc {environment}
 
 ### Switch namespace in k8
 
-#kc {environment} {namespace}
+\# kc {environment} {namespace}
 
 ### Prints logs live from pod
 
-#klf {deployment-name}
-#kl {servicename} {last n lines from logs} {search by this word in logs}.   
-#kl {servicename} 0 {search by this word in whole logs}.
+\# klf {deployment-name}
+\# kl {servicename} {last n lines from logs} {search by this word in logs}.   
+\# kl {servicename} 0 {search by this word in whole logs}.
 
 ### Prints ingress details in console
 
-#kl {servicename}
+\# kl {servicename}
 
 ### Prints deployment details in console
 
-#kd {servicename}
+\# kd {servicename}
