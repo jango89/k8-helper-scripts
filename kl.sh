@@ -4,6 +4,7 @@
 #./kl.sh {servicename} {last n lines from logs} {search by this word in logs}
 #./kl.sh {servicename} 0 {search by this word in whole logs}
 
+echo "Please initialize context and namespace using kc.sh first!"
 
 if [ -z "$1" ]; then
   echo "No argument present. Please pass k8 servicename ex:'./kl.sh bookingoptionsservice'"
