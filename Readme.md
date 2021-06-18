@@ -20,8 +20,10 @@ Run  `source .bash or source .zshrc`.
 
 ### Prints logs live from pod
 
-\# klf {deployment-name}
+\# klf {deployment-name}  
+
 \# kl {servicename} {last n lines from logs} {search by this word in logs}.   
+
 \# kl {servicename} 0 {search by this word in whole logs}.
 
 ### Prints ingress details in console
