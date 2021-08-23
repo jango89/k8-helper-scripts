@@ -7,6 +7,8 @@ Add `alias ki="{path to the script}` to either .bash or .zshrc.
 Add `alias klf="{path to the script}` to either .bash or .zshrc.
 Run  `source .bash or source .zshrc`.
 
+Run `export KUBECONFIG=$KUBECONFIG:$HOME/.kube/kubeconfig.yaml` to export configs.
+
 
 ## Prints logs in console
 
